@@ -9,4 +9,13 @@
         tools:showIn="@layout/app_bar_nd"
         tools:context="org.udg.pds.todoandroid.activity.NavDrawerActivity">
 
+    <EditText
+        android:id="@+id/text_nd"
+        android:layout_width="279dp"
+        android:layout_height="128dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="123dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

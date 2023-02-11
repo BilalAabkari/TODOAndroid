@@ -6,4 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".TestActivity">
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="227dp"
+        android:layout_height="131dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="318dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
